@@ -98,7 +98,7 @@
 受講日時になると画面下部に `レッスン開始` ボタンが表示されますので、クリックしてレッスンを受講してください。
 
 開始前  
-![](img/member_contract_view_button_before.png)
+![](img/contract_view_button_before.png)
 
 受講時間  
-![](img/member_contract_view_button_now.png)
+![](img/contract_view_button_now.png)
