@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>音箱 -OTOBAKO- の使い方 &#8212; 音箱 -OTOBAKO-</title>
+    <title>画像を追加する &#8212; 音箱 -OTOBAKO-</title>
     
   <link rel="stylesheet" href="../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -56,7 +56,8 @@
     <link rel="shortcut icon" href="../_static/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="ログインとログアウト" href="login.html" />
+    <link rel="next" title="動画を追加する" href="editor_movie.html" />
+    <link rel="prev" title="ブロッグ型エディタの使い方" href="editor.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -91,12 +92,12 @@
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
   <ul class="nav sidenav_l1">
  <li class="toctree-l1">
-  <a class="reference internal" href="#">
+  <a class="reference internal" href="index.html">
    音箱 -OTOBAKO- の使い方
   </a>
  </li>
 </ul>
-<ul class="nav sidenav_l1">
+<ul class="current nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="login.html">
    ログインとログアウト
@@ -127,10 +128,22 @@
    レッスンを実施する
   </a>
  </li>
- <li class="toctree-l1">
+ <li class="toctree-l1 current active">
   <a class="reference internal" href="editor.html">
    ブロッグ型エディタの使い方
   </a>
+  <ul class="current">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     画像を追加する
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="editor_movie.html">
+     動画を追加する
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -170,7 +183,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/pages/index.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/pages/editor_image.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -195,6 +208,57 @@
     <!-- Table of contents -->
     <div class="d-none d-md-block col-md-2 bd-toc show">
         
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id2">
+   画像ブロックを追加する
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id3">
+   画像の装飾表示
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id4">
+     装飾方法
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id5">
+     枠線付き表示
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id6">
+     全幅表示
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id7">
+     背景色付き表示
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id8">
+     装飾を組み合わせる
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id9">
+     装飾を外す
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+        </nav>
+        
     </div>
 </div>
     <div id="main-content" class="row">
@@ -202,12 +266,92 @@
         
               <div>
                 
-  <div class="section" id="otobako">
-<h1>音箱 -OTOBAKO- の使い方<a class="headerlink" href="#otobako" title="Permalink to this headline">¶</a></h1>
-<p><img alt="" src="../_images/frontpage.png" /></p>
-<p>音箱 -OTOBAKO- の使い方を説明します。メニューの中から知りたい項目を選択してください。
-初めての方は「<a class="reference internal" href="login.html"><span class="doc std std-doc">ログインとログアウト</span></a>」のページからどうぞ。</p>
-<div class="toctree-wrapper compound">
+  <div class="section" id="id1">
+<h1>画像を追加する<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="id2">
+<h2>画像ブロックを追加する<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p>画像のブロックは、通常のブロックとは異なる方法で追加します。<br />
+追加する手順は次のとおりです。</p>
+<ol class="simple">
+<li><p>エディタの空白部分をクリック</p></li>
+<li><p>画像のURLを入力</p></li>
+</ol>
+<p>これだけで画面上に表示されます。</p>
+<p><img alt="" src="../_images/manage_block_editor11.png" /></p>
+<p>↓</p>
+<p><img alt="" src="../_images/manage_block_editor08.png" /></p>
+<p>画像ブロックには、キャプションを入力する欄も追加されます。画像の説明があればこちらに入力してください。</p>
+<p><img alt="" src="../_images/manage_block_editor09.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>画像はあらかじめインターネット上でアクセスできる場所にアップロードしてください。</p>
+</div>
+</div>
+<div class="section" id="id3">
+<h2>画像の装飾表示<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p>画像ブロックでは、画像の表示を装飾することができます。<br />
+装飾の種類は次のとおりです。</p>
+<ul class="simple">
+<li><p>枠線付き表示</p></li>
+<li><p>全幅表示</p></li>
+<li><p>背景色付き表示</p></li>
+</ul>
+<p>これらは組み合わせることもできます。</p>
+<div class="section" id="id4">
+<h3>装飾方法<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<p>追加した画像ブロックをクリックすると、ブロックの右上あたりにメニューアイコンが表示されます。</p>
+<p><img alt="" src="../_images/manage_block_editor10.png" /></p>
+<p>このアイコンをクリックして、メニューを開いてください。</p>
+<p><img alt="" src="../_images/manage_editor_image01.png" /></p>
+</div>
+<div class="section" id="id5">
+<h3>枠線付き表示<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<p>枠線付き表示は、メニューの一番左にあるアイコンをクリックします。</p>
+<p><img alt="" src="../_images/manage_editor_image_menu01.png" /></p>
+<p>クリックしたアイコンの色が変わり、画像に枠線が付きます。</p>
+<p><img alt="" src="../_images/manage_editor_image02.png" /></p>
+<p>実際の表示は次のとおりです。</p>
+<p><img alt="" src="../_images/manage_editor_image03.png" /></p>
+<p>画像の周りにうっすらと線が表示されています。</p>
+</div>
+<div class="section" id="id6">
+<h3>全幅表示<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<p>全幅表示は、メニューの真ん中にあるアイコンをクリックします。</p>
+<p><img alt="" src="../_images/manage_editor_image_menu02.png" /></p>
+<p>クリックしたアイコンの色が変わり、画像が画面幅いっぱいに表示されます。</p>
+<p><img alt="" src="../_images/manage_editor_image04.png" /></p>
+<p>実際の表示は次のとおりです。</p>
+<p><img alt="" src="../_images/manage_editor_image05.png" /></p>
+<p>画像が画面幅いっぱいに表示されました。</p>
+</div>
+<div class="section" id="id7">
+<h3>背景色付き表示<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<p>背景色付き表示は、メニューの一番右にあるアイコンをクリックします。</p>
+<p><img alt="" src="../_images/manage_editor_image_menu03.png" /></p>
+<p>クリックしたアイコンの色が変わり、画像が少し小さく表示されて背景に色がつきます。</p>
+<p><img alt="" src="../_images/manage_editor_image06.png" /></p>
+<p>実際の表示は次のとおりです。</p>
+<p><img alt="" src="../_images/manage_editor_image07.png" /></p>
+<p>画像の背景に色がつきました。</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>背景の色は固定です。指定はできません。</p>
+</div>
+</div>
+<div class="section" id="id8">
+<h3>装飾を組み合わせる<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<p>画像の装飾は組み合わせて使用することができます。<br />
+次の表示は <code class="docutils literal notranslate"><span class="pre">枠線付き表示</span></code> と <code class="docutils literal notranslate"><span class="pre">背景色付き表示</span></code> を組み合わせた例です。</p>
+<p><img alt="" src="../_images/manage_editor_image08.png" /></p>
+<p>画像の背景に色がつき、その周りに枠線がつきました。</p>
+</div>
+<div class="section" id="id9">
+<h3>装飾を外す<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<p>装飾が適用されている場合は、メニューにあるアイコンの色が変化しています。</p>
+<p><img alt="" src="../_images/manage_editor_image_menu04.png" /></p>
+<p>外したい装飾のアイコンをクリックすると、元の色に戻り、装飾が削除されます。</p>
+<p><img alt="" src="../_images/manage_editor_image_menu.png" /></p>
+</div>
 </div>
 </div>
 
@@ -239,7 +383,8 @@
     
     <div class='prev-next-bottom'>
         
-    <a class='right-next' id="next-link" href="login.html" title="next page">ログインとログアウト</a>
+    <a class='left-prev' id="prev-link" href="editor.html" title="previous page">ブロッグ型エディタの使い方</a>
+    <a class='right-next' id="next-link" href="editor_movie.html" title="next page">動画を追加する</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
