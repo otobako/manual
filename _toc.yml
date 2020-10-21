@@ -6,3 +6,6 @@
 - file: pages/lesson_create
 - file: pages/lesson_contract
 - file: pages/editor
+  sections:
+    - file: pages/editor_image
+    - file: pages/editor_movie
