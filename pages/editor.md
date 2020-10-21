@@ -53,3 +53,44 @@
 ```{note}
 ブロックアイコンを選択しないまま入力した場合は、段落ブロックとして扱われます。
 ```
+
+## ブロックを削除する
+
+追加したブロックをクリックすると、ブロックの右上あたりにメニューアイコンが表示されます。
+
+![](img/manage_block_editor12.png)
+
+このアイコンをクリックして、メニューを開いてください。
+
+![](img/manage_editor_menu.png)
+
+```{note}
+メニューのアイコンはブロックの種類によって増えることがあります。
+```
+
+ブロックを削除する場合は、メニューの真ん中にあるアイコンをクリックします。
+
+![](img/manage_editor_delete01.png)
+
+クリックするとアイコンの表示が変わりますので、もう一度クリックしてください。
+
+![](img/manage_editor_delete02.png)
+
+これでブロックの削除されました。
+
+[![Image from Gyazo](https://i.gyazo.com/110c2ff2af1d0b083c79120c736f128a.gif)](https://gyazo.com/110c2ff2af1d0b083c79120c736f128a)
+
+## ブロックを並び替える
+
+追加したブロックは並び順を変更することができます。  
+メニューアイコンをクリックして、メニューを開いてください。
+
+![](img/manage_editor_menu.png)
+
+左右の矢印アイコンをクリックすることで上下に移動します。
+
+![](img/manage_editor_move.png)
+
+1回クリックするごとに、1つ上（または下）に移動します。
+
+[![Image from Gyazo](https://i.gyazo.com/6d3a308589df8a879e10cf330f5a85a1.gif)](https://gyazo.com/6d3a308589df8a879e10cf330f5a85a1)
