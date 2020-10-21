@@ -6,15 +6,11 @@
 追加する手順は次のとおりです。
 
 1. エディタの空白部分をクリック
-1. 画像のURLを入力
+1. 画像のURLを貼り付ける
 
 これだけで画面上に表示されます。
 
-![](img/manage_block_editor11.png)
-
-↓
-
-![](img/manage_block_editor08.png)
+[![Image from Gyazo](https://i.gyazo.com/47ce7bfa0f89154f1d1aef080c9c39bf.gif)](https://gyazo.com/47ce7bfa0f89154f1d1aef080c9c39bf)
 
 画像ブロックには、キャプションを入力する欄も追加されます。画像の説明があればこちらに入力してください。
 
