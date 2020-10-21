@@ -87,7 +87,7 @@
 
 ![](img/manage_editor_menu.png)
 
-左右の矢印アイコンをクリックすることで上下に移動します。
+左右の矢印アイコンが並び替えのボタンです。
 
 ![](img/manage_editor_move.png)
 
