@@ -9,3 +9,4 @@
   sections:
     - file: pages/editor_image
     - file: pages/editor_movie
+    - file: pages/editor_image_service
